@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletBooks</servlet-name>
+  	<display-name>ServletBooks</display-name>
+  	<description></description>
+  	<servlet-class>package1.ServletBooks</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Booklistservlet</servlet-name>
+  	<display-name>Booklistservlet</display-name>
+  	<description></description>
+  	<servlet-class>package1.Booklistservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Log</servlet-name>
+  	<display-name>Log</display-name>
+  	<description></description>
+  	<servlet-class>package1.Log</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Orders</servlet-name>
+  	<display-name>Orders</display-name>
+  	<description></description>
+  	<servlet-class>package1.Orders</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>operations</servlet-name>
+  	<display-name>operations</display-name>
+  	<description></description>
+  	<servlet-class>package1.operations</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteBook</servlet-name>
+  	<display-name>DeleteBook</display-name>
+  	<description></description>
+  	<servlet-class>package1.DeleteBook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateBook</servlet-name>
+  	<display-name>UpdateBook</display-name>
+  	<description></description>
+  	<servlet-class>package1.UpdateBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletBooks</servlet-name>
+  	<url-pattern>/ServletBooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Booklistservlet</servlet-name>
+  	<url-pattern>/Booklistservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Log</servlet-name>
+  	<url-pattern>/Log</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Orders</servlet-name>
+  	<url-pattern>/Orders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>operations</servlet-name>
+  	<url-pattern>/operations</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteBook</servlet-name>
+  	<url-pattern>/DeleteBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateBook</servlet-name>
+  	<url-pattern>/UpdateBook</url-pattern>
+  </servlet-mapping>
+</web-app>
